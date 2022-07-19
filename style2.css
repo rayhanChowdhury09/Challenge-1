@@ -12,7 +12,7 @@ h1
 {
     color: orange;
 }
-section
+.flexible-container
 {
     display: flex;
     margin-bottom: 150px;
@@ -45,4 +45,34 @@ section
     background-image: url(file:///Users/rayhanchowdhury/Downloads/developer-portfolio-master/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.developer
+{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 8%;
+    padding-left: 3%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 30px;
+}
+h2
+{
+    font-size: 40px;
+}
+.experience-area
+{
+    background-image: url(file:///Users/rayhanchowdhury/Downloads/developer-portfolio-master/images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#full
+{
+    border-left: 7px solid rgb(169, 7, 7);
+}
+#entry
+{
+    border-left: 7px solid rgb(47, 8, 86);
+}
+footer p
+{
+    text-align: center;
 }
